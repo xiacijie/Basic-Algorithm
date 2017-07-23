@@ -13,7 +13,7 @@ PRIVATE void swap(int *a,int *b){
 
 }
 
-PUBLIC void Bubble_Sort(int *array,int length){
+PUBLIC void bubble_sort(int *array,int length){
     bool swapped;
     int end;
     int i;
