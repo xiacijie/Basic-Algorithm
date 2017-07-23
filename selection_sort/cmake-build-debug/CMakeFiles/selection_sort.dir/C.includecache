@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/桌面/C programming/selection_sort/main.c
+stdio.h
+-
+selection_sort.h
+/home/jack/桌面/C programming/selection_sort/selection_sort.h
+
+/home/jack/桌面/C programming/selection_sort/selection_sort.c
+selection_sort.h
+/home/jack/桌面/C programming/selection_sort/selection_sort.h
+
+/home/jack/桌面/C programming/selection_sort/selection_sort.h
+
