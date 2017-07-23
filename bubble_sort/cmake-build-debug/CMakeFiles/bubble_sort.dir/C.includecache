@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jack/桌面/C programming/bubble_sort/bubble_sort.c
+bubble_sort.h
+/home/jack/桌面/C programming/bubble_sort/bubble_sort.h
+stdbool.h
+-
+
+/home/jack/桌面/C programming/bubble_sort/bubble_sort.h
+
+/home/jack/桌面/C programming/bubble_sort/main.c
+stdio.h
+-
+bubble_sort.h
+/home/jack/桌面/C programming/bubble_sort/bubble_sort.h
+
