@@ -5,7 +5,7 @@
 #include "bubble_sort.h"
 #include <stdbool.h>
 
-void swap(int *a,int *b){
+PRIVATE void swap(int *a,int *b){
     int temp;
     temp = *a;
     *a = *b;
@@ -13,7 +13,7 @@ void swap(int *a,int *b){
 
 }
 
-void Bubble_Sort(int *array,int length){
+PUBLIC void Bubble_Sort(int *array,int length){
     bool swapped;
     int end;
     int i;
