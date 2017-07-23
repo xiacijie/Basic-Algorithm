@@ -1,2 +1,2 @@
 # Basic-Algorithm
-Writing in C programming language
+Writted in C programming language
