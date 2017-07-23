@@ -8,5 +8,5 @@
 #define PUBLIC
 #define PRIVATE static
 PRIVATE void swap(int *a,int *b);
-PUBLIC void Bubble_Sort(int *array,int length);
+PUBLIC void bubble_sort(int *array,int length);
 #endif //BUBBLE_SORT_BUBBLE_SORT_H
