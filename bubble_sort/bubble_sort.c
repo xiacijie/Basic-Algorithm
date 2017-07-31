@@ -20,7 +20,7 @@ PUBLIC void bubble_sort(int *array,int length){
     for (end = length-1;end >=1;end--){
 
         swapped = false;
-        for (i=0;i<length;i++){
+        for (i=0;i<end;i++){
             if (array[i]>array[i+1]) {
                 swap(&array[i],&array[i+1]);
                 swapped = true;
