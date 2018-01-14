@@ -8,7 +8,7 @@ int main(){
 
 	int arr[] = {1,4,5,6,7,8,9,10,22,45,56};
 	int length = sizeof(arr)/sizeof(arr[0]);
-	int to_be_search = 9;
+	int to_be_search = 6;
 	int index = binary_search(arr,length,to_be_search);
 	printf("Position %d\n",index);
 	return 0;
@@ -30,11 +30,11 @@ int binary_search(int *arr,int n,int x){
 		}
 
 		else if (arr[mid] > x){
-			tail = mid;
+			tail = mid-1;
 		}
 
 		else{
-			head = mid;
+			head = mid+1;
 		}
 
 		mid = (head+tail)/2;
